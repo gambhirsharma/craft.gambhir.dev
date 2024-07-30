@@ -1,0 +1,86 @@
+---
+// let currentYear: ( string | number ) = new Date(Date.now()).getFullYear();
+// let currentYearString: string = `- ${currentYear}`;
+// if(currentYear === 2024){
+// 	currentYear = '';
+// 	currentYearString= ""
+// }
+---
+
+<footer>
+  <p>
+    Hi! I am <span
+      ><a href="https://www.gambhir.xyz" target="_blank">gambhir</a></span
+    > a passionate Web Developer
+  </p>
+  <ul>
+    <li>
+      <a>
+        <img height="20px" src="/icons/twitter.svg" />
+        twitter
+      </a>
+    </li>
+    <li>
+      <a>
+        <img height="20px" src="/icons/codepen.svg" />
+        codepen
+      </a>
+    </li>
+    <li>
+      <a>
+        <img height="20px" src="/icons/coffee.svg" />
+        buy me a coffee
+      </a>
+    </li>
+  </ul>
+</footer>
+
+<style>
+  footer {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  ul {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+  }
+  li {
+    list-style: none;
+    padding: 10px 15px;
+    border: 0.5px solid #fff;
+    border-radius: 10px;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: "Composition", arial;
+    font-weight: 100;
+  }
+  img {
+    margin-right: 10px;
+  }
+
+  span {
+    font-family: "Composition", arial;
+    font-weight: 100;
+    font-size: 1.5rem;
+    color: rgb(224, 204, 250);
+    text-decoration: underline;
+    a {
+      display: inline;
+      color: rgb(224, 204, 250);
+    }
+  }
+</style>
