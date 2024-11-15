@@ -4,7 +4,7 @@ interface Props {
 }
 
 const { title } = Astro.props;
-import Analytics from '@vercel/analytics/astro'
+import Analytics from "@vercel/analytics/astro";
 ---
 
 <!doctype html>
@@ -15,10 +15,23 @@ import Analytics from '@vercel/analytics/astro'
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
+
+
+    <meta property="og:title" content="craft.gambhir.xyz" />
+    <meta property="og:description" content="Style Components" />
+    <meta property="og:url" content="craft.gambhir.xyz" />
+    <meta property="og:image" content="/OG.png" />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="craft.gambhir.xzy" />
+    <meta property="twitter:description" content="Style Components" />
+    <meta name="twitter:image" content="OG.png" />
+
     <title>{title}</title>
   </head>
   <body>
-    <Analytics/>
+    <Analytics />
     <slot />
   </body>
 </html>
