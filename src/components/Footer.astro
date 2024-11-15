@@ -10,7 +10,7 @@
 <footer>
   <p>
     Hi! I am <span
-      ><a href="https://www.gambhir.xyz" target="_blank">gambhir</a></span
+      ><a href="https://www.gambhir.xyz" target="_blank">Gambhir Shamra</a></span
     > a passionate Web Developer
   </p>
   <ul>
@@ -42,6 +42,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+  }
+  footer p {
+    text-align: center;
   }
   ul {
     padding: 0px;
@@ -81,6 +84,22 @@
     a {
       display: inline;
       color: rgb(224, 204, 250);
+    }
+  }
+  @media (max-width: 768px) {
+    footer {
+      padding: 20px 0;
+    }
+    footer p {
+      margin: 0px 0; 
+    }
+    ul {
+      flex-direction: column;
+    }
+    li {
+      
+      margin: 5px 0;
+      width: 100%;
     }
   }
 </style>
