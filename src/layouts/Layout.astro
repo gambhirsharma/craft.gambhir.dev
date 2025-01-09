@@ -5,6 +5,7 @@ interface Props {
 
 const { title } = Astro.props;
 import Analytics from "@vercel/analytics/astro";
+import "../style/dot.css";
 ---
 
 <!doctype html>
@@ -30,23 +31,23 @@ import Analytics from "@vercel/analytics/astro";
 
     <title>{title}</title>
   </head>
-  <body>
+  <body class="bg-dot dark">
     <Analytics />
     <slot />
   </body>
 </html>
 <style is:global>
-  :root {
-    --accent: 136, 58, 234;
-    --accent-light: 224, 204, 250;
-    --accent-dark: 49, 10, 101;
-    --accent-gradient: linear-gradient(
-      45deg,
-      rgb(var(--accent)),
-      rgb(var(--accent-light)) 30%,
-      white 60%
-    );
-  }
+  /*:root {*/
+  /*  --accent: 136, 58, 234;*/
+  /*  --accent-light: 224, 204, 250;*/
+  /*  --accent-dark: 49, 10, 101;*/
+  /*  --accent-gradient: linear-gradient(*/
+  /*    45deg,*/
+  /*    rgb(var(--accent)),*/
+  /*    rgb(var(--accent-light)) 30%,*/
+  /*    white 60%*/
+  /*  );*/
+  /*}*/
   html {
     font-family: system-ui, sans-serif;
     background: #13151a;
