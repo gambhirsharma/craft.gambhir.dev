@@ -1,5 +1,6 @@
 {
-  "name": "",
+  "name": "craft.gambhir.dev",
+  "description": "gambhir.dev codepen collection",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
