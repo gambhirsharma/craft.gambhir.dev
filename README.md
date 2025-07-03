@@ -1,3 +1,3 @@
 # craft.gambhir.dev
 
-![image](https://github.com/user-attachments/assets/c16dfcb5-b0e8-4db7-91e5-2cab085f843b)
+![image](https://github.com/user-attachments/assets/a9361cff-8b46-44b4-9b14-24be33174c65)
